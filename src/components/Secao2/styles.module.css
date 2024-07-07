@@ -1,0 +1,11 @@
+/* src/components/Secao2/styles.module.css */
+.secao2 {
+    height: 100vh; /* Altura de cada seção */
+    width: 100%;
+    background: linear-gradient(to bottom, #C1C1C1, #DDDDDD);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    scroll-snap-align: start;
+  }
+  

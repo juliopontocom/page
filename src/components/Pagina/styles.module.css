@@ -1,0 +1,13 @@
+/* src/components/Pagina/styles.module.css */
+.container {
+  height: 100vh; /* Altura total da viewport */
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth; /* Adiciona rolagem suave */
+}
+
+.slide {
+  height: 100vh; /* Altura de cada seção */
+  width: 100%;
+  scroll-snap-align: start;
+}
