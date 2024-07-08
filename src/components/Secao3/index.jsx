@@ -4,7 +4,7 @@ import styles from './styles.module.css';
 
 const Secao3 = () => {
   return (
-    <section className={styles.secao3}>
+    <section id='secao3' className={styles.secao3}>
       <h1>Pagina 3</h1>
     </section>
   );

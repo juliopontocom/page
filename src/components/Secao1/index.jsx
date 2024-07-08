@@ -1,11 +1,12 @@
 // src/components/Secao1/index.jsx
 import React from 'react';
 import styles from './styles.module.css';
+import Header from '../Header'
 
 const Secao1 = () => {
   return (
-    <section className={styles.secao1}>
-      <h1>Pagina 1</h1>
+    <section id='secao1' className={styles.secao1}>
+      <Header></Header>
     </section>
   );
 };

@@ -1,0 +1,63 @@
+.header{
+    width: 100%;
+    min-height: 50px;
+    height: inherit;
+    max-height: 10vh;
+  
+
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 60px;
+
+    margin-right: 12vw;
+}
+
+.ancora {
+    position: relative;
+    color: #b4b4b4;
+    text-decoration: none;
+}
+
+.ancora::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    display: block;
+    margin-top: 5px;
+    right: 0;
+    background: #B28167;
+    transition: width 0.4s ease;
+    -webkit-transition: width 0.4s ease;
+}
+
+.ancora:hover::after {
+    width: 100%;
+    left: 0;
+    background: #B28167;
+}
+
+.ancora:focus {
+    color: black;
+}
+
+
+@media(max-width: 1024px){
+    .header{
+        
+    }
+}
+
+@media(max-width: 768px){
+    .header{
+        
+    }
+}
+
+@media(max-width: 450px){
+    .header{
+        
+    }
+}
+
