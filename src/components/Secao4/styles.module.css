@@ -4,8 +4,105 @@
     width: 100%;
     background: linear-gradient(to bottom, #C1C1C1, #DDDDDD);
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     scroll-snap-align: start;
   }
+
+  .h1{
+    background: linear-gradient(to right, #4C372C, #B28167);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 7rem; 
+    font-weight: bold; 
+  }
+
+  .container{
+    background-color: #ffffff52;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   
+    min-width: 300px;
+    width: 30vw;
+    max-width: 600px;
+
+    min-height: 300px;
+    height: 50vh;
+
+    gap: 20px;
+    border-radius: 15px;
+    padding: 10px 0px;
+  }
+
+  .input{
+    width: 90%;
+    min-height: 48px;
+    height: 10%;
+    max-height: 200px;
+    background-color: #CACACA;
+    border: none;
+    border-radius: 16px;
+    padding: 10px;
+  }
+
+  .input::placeholder{
+    color: #B28167;
+    position: relative;
+    top: 0px;
+  }
+
+  .mensagem{
+    width: 90%;
+    min-height: 48px;
+    height: 50%;
+    max-height: 512px;
+    background-color: #CACACA;
+    border: none;
+    border-radius: 16px;
+    padding: 10px;
+  }
+
+  .mensagem::placeholder{
+    color: #B28167;
+    width: 90%;
+    position: relative;
+    bottom: 38%;
+  }
+
+  .mensagem::before{
+    position: relative;
+    bottom: 38%;
+  }
+
+  .under{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    height: 10%;
+  }
+
+  .icons{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+  
+  .button{
+    width: 40%;
+    height: 90%;
+    border-radius: 10px;
+    border: none;
+    background: linear-gradient(300deg, #604234, #B28167);
+    color: #DDDDDD;
+    font-size: 1.25rem;
+    font-weight: 600;
+  }
+
+  .button:hover{
+    cursor: pointer;
+  }
