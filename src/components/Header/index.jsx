@@ -8,7 +8,6 @@ const Header = () => {
         <a href="#secao2" className={styles.ancora} >Habilidades</a>
         <a href="#secao3" className={styles.ancora} >Portifólio</a>
         <a href="#secao4" className={styles.ancora} >Contato</a>
-        <p>switch</p>
     </div>
   );
 };

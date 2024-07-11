@@ -7,7 +7,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .corpoTexto{
@@ -16,23 +16,21 @@
     justify-content: center;
     align-items: start;
     gap: 20px;
-    padding-left: 100px;
 }
 
 .avatar{
-    width: 600px;
-    height: 600px;
+    width: 450px;
 }
 
 .h1{
-    font-size: 5rem;
+    font-size: 3.5rem;
     background: linear-gradient(130deg, #4C372C, #B28167);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
 }
 .p{
-    font-size: 2rem;
+    font-size: 1.5rem;
     background: linear-gradient(130deg, #4C372C, #B28167);
     -webkit-background-clip: text;
     background-clip: text;

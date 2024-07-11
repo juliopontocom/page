@@ -4,8 +4,48 @@
     width: 100%;
     background: linear-gradient(to bottom, #C1C1C1, #DDDDDD);
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     scroll-snap-align: start;
   }
-  
+
+  .h1{
+   background: linear-gradient(to right, #4C372C, #B28167);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 7rem; 
+    font-weight: bold; 
+  }
+
+  .macbook{
+   height: 400px;
+  }
+
+  .corpo{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: flex-start;
+   width: 50vw;
+   max-width: 1100px;
+  }
+
+  .skills{
+   height: 300px;
+   width: 100%;
+   background-color: #dddddd90;
+   border-radius: 30px;
+   display: grid;
+   grid-template-columns: repeat(5, 1fr);
+   grid-template-rows: repeat(2, 1fr);
+   padding: 30px;
+  }
+
+  .item{
+   justify-self: center;
+  }
+
+
+
+
